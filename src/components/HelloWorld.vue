@@ -81,9 +81,13 @@ export default {
     margin: auto;
     background: linear-gradient(90deg, #F9FDFC, #E8EBF0);
     height: 100%;
+    max-width: 700px;
     position: relative;
     display: flex;
     flex-direction: column;
+    border-width: 0 1px 0 1px;
+    border-color: #E8EBF0;
+    border-style: solid;
   }
 
   .footer {
